@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web HealtCare</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="nameapp">Raymore THT</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#doctors">Doctors</a>
+            <a href="#booking">Booking</a>
+            <a href="#about us">About Us</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <img src="https://img.freepik.com/free-vector/medical-video-call-consultation-illustration_88138-415.jpg?w=740&t=st=1695274601~exp=1695275201~hmac=3cef526a247bbe47474c5a5f74f6c960ad3319a6601f1f3fc355d2b088cae3ae"
+                width="370" height="300" />
+            <div class="kolom">
+                <h1>Selamat Datang <br /> Healthcare Raymore THT </h1>
+                <h3>Website penyedia layanan kesehatan THT</h3>
+                <p>Telinga hidung tenggorokan (THT) memiliki fungsi penting, seperti mendengar, bernapas, mencium aroma,
+                    berbicara, serta menelan makanan dan minuman. Saat ada gangguan yang berkaitan dengan ketiga bagian
+                    tersebut, dianjurkan untuk menemui dokter spesialis THT.</p>
+                <a href="https://id.wikipedia.org/wiki/Otolaringologi">Pelajari Lebih Lanjut</a>
+            </div>
+        </div>
+    </section>
+    <section class="doctors" id="doctors">
+        <div class="slide-content">
+            <div class="card-wrapper">
+                <div class="card">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src='https://img.freepik.com/free-photo/image-asian-woman-doctor-nurse-found-smth-looking-through-magnifying-glass-stare-surprised_1258-83265.jpg?w=740&t=st=1695283416~exp=1695284016~hmac=e2e39aa2ef449cbdff54c05dc4641e14d45c53d37ac6b07e155fe7567770ffdb'
+                                alt='' class="card-img">
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">DR. ARINA IKASARI M</h2>
+                            <p class="description">dr. Arina Ikasari Muhtadi, Sp.THT-BKL, FICS menyelesaikan pendidikan
+                                Dokter Spesialis Telinga Hidung Tenggorok dan Bedah Kepala Leher di Universitas
+                                Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="booking" id="booking">
+        <div class="bf-body">
+            <div class="bf-head">
+                <h1>Booking Jadwal</h1>
+                <p>Tentukan Pertemuan dengan Dokter</p>
+            </div>
+            <div class="bf-body-box" action="form.php">
+                <div class="bf-row">
+                    <div class="bf-col-6">
+                        <p>Nama</p>
+                        <input type="text" name="fname" id="fname" placeholder="Your Name">
+                    </div>
+                    <div class="bf-col-6">
+                        <p>Email</p>
+                        <input type="email" name="email" id="email" placeholder="Email Address">
+                    </div>
+                </div>
+            </div>
+            <div class="bf-body-box">
+                <div class="bf-row">
+                    <div class="bf-col-6">
+                        <p>Tentukan Tanggal</p>
+                        <input type="date" name="date" id="date">
+                    </div>
+                    <div class="bf-col-6">
+                        <p>Tentukan Jam</p>
+                        <select name="s-select">
+                            <option>Tentukan Jam</option>
+                            <option value="20.00 WIB">20.00 WIB</option>
+                            <option value="21.00 WIB">21.00 WIB</option>
+                            <option value="22.00 WIB">22.00 WIB</option>
+                            <option value="23.00 WIB">23.00 WIB</option>
+                            <option value="24.00 WIB">24.00 WIB</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="bf-row">
+                <div class="bf-col-12">
+                    <p>Pesan</p>
+                    <textarea name="pesan" id="pesan" cols="30" row="10"></textarea>
+                </div>
+            </div>
+            <div class="bf-row">
+                <div class="bf-col-3">
+                    <input type="submit" value="submit">
+                </div>
+            </div>
+    </section>
+    <footer class="about us" id="about us">
+        <div class="footerContainer">
+            <div class="socialIcon">
+                <a>
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a>
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a>
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+        </div>
+        <div class="footerbottom">
+            <p>Copyright &copy;2023 Create by <span class="designer">TEAM M-25</span>
+            </p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
