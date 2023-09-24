@@ -30,7 +30,7 @@ The NTE Healthcare Website is a user-friendly platform designed to provide valua
 
 To access the NTE Healthcare Website, simply follow these steps:
 
-1. Visit the website at [www.ntehealthcare.com](https://www.ntehealthcare.com).
+1. Visit the website at [www.ntehealthcare.com](https://kampus-merdeka-software-engineering.github.io/front-end-capstone-project-section-balikpapan-group-25/).
 
 2. Explore the informative content to learn more about Nose, Throat, and Ear health.
 
