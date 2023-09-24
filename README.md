@@ -44,7 +44,7 @@ To access the NTE Healthcare Website, simply follow these steps:
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: [Node.js](https://nodejs.org/), [Express.js](https://expressjs.com/)
-- **Database**: [MongoDB](https://www.mongodb.com/)
+- **Database**: [PostgresSQL](https://www.postgresql.org/)
 
 ## Contributions
 
