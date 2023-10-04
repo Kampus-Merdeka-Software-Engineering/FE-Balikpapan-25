@@ -11,17 +11,22 @@ body{
     color: white;
 }
 
+section{
+    margin: auto;
+    display: flex;
+}
+
 .header{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
+    background-color: #141428;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+  }
 
 .nameapp{
     display: flex;
@@ -45,9 +50,11 @@ body{
 .navbar a:hover, .navbar a.active {
     color: white ;
 }
+
 .nameapp:active{
     transform: scale(0.95);
 }
+
 .home{
     display: flex;
     align-items: center;
@@ -63,35 +70,32 @@ body{
     text-align: justify;
     float: left;
 }
+
 .home-content h1{
     font-size: 35px;
     font-weight: 600;
     line-height: 1.2;
 }
+
 .home-content h3{
     font-size: 20px;
     font-weight: 600;
     color: #84b4f6;
     margin: 10px 0 20px;
 }
+
 .home-content p{
-    font-size: 15px;
+    font-size: 14px;
     text-align: justify;
 }
 
-section {
-    margin: auto;
-    display: flex;
-    margin-bottom: 50px;
-}
-
-.kolom {
+.kolom{
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: 20px;
 }
 
-.kolom a {
+.kolom a{
     position: relative;
     display: inline-flex;
     justify-content: left;
@@ -102,50 +106,83 @@ section {
     margin-left: 0px;
     transition: .3s; 
 }
-.kolom a:hover, .kolom a:active {
+
+.kolom a:hover, .kolom a:active{
     color: white;
 }
 
 .doctors{
-    min-height: 100vh;
     display: flex;
-    color: black;
     justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.containers{
+    display: flex;
 }
 
 .card{
+    height: 500px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+
+.doctors img{
+    height: 500px;
+    width: 350px;
     border-radius: 10px;
-    background-color: white;
-    width: 300px;
-    height: 350px;
 }
 
-.card-image{
-    position: relative;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    padding: 3px;
-    background: white;
-    margin-left: 80px;
-    
+.intro{
+    height: 70px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    color: transparent;
+    background: transparent;
+    border-radius: 0 0 10px 10px;
+    top: 1000px;
+    transition: .3s;
 }
 
-.card-image .card-img{
-height: 100%;
-width: 100%;
-object-fit: cover;
-border-radius: 15px;
-border: 4px solid #84b4f6;
-}
-.card-content{
-    color: black;
-    justify-content: center;
+.doctors h1{
+    margin: 10px;
+    font-size: 20px;
+
 }
 
-.slide-content{
-    margin: 0 40px;
+.doctors p{
+    font-size: 15px;
+    margin: 10px;
+    visibility: hidden;
+    opacity: 0;
 }
+
+.doctors span{
+    font-weight: bold;
+}
+
+.card:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.card:hover .intro{
+    height: 215px;
+    top: 1000px;
+    background: #141428;
+    color: white;
+}
+
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+    color: white;
+}
+
 
 .booking{
     display: flex;
@@ -205,52 +242,55 @@ input, textarea, select{
     text-align: center;
 }
 
-footer {
-    background-color: transparent;
-
-}
-.footerContainer{
-    width: 75;
-    height: 80;
-}
-.socialIcon {
-    display: flex;
-    justify-content: center;
-}
-.socialIcon a{
+.container{
+    background: transparent;
     text-decoration: none;
-    padding: 10px;
-    background-color: 141428;
-    margin: 10px;
-    border-radius: 50%;
-}
-.socialIcon a i{
-    font-size: 2em;
-    color: white;
-    opacity: 0.9;
+    margin: auto;
 }
 
-.socialIcon a:hover{
-    background-color: white;
-    transition: 0.5s;
+.row{
+    display: flex;
+    flex-wrap: wrap;
 }
-.socialIcon a:hover i{
-    color: black;
-    transition: 0.5s;
+
+.footer{
+    background-color: black;
+    padding: 70px 0;
+    width: 100%;
+    display: flex;
 }
+
+.footer-col li{
+    list-style: none;
+}
+
+.footer-col a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-col{
+    margin: 0 20px 0;
+}
+
+.footer-col a{
+    position: relative;
+    display: inline-flex;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .3s;
+    align-items: center;
+}
+
+.footer-col a:hover, .footer-col a.active {
+    color: #84b4f6 ;
+}
+
 
 .footerbottom{
     background-color: black;
     padding: 20px;
     text-align: center;
-}
-.footerbottom p{
-    color: white;
-}
-.designer{
-    color: #84b4f6;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 400;
-    margin: 0px 5px;
 }
