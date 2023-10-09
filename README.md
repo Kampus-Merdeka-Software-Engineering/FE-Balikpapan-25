@@ -1,54 +1,56 @@
-# NTE Healthcare Website
+# ENTCareCenter - Your ENT Healthcare Hub
 
-![Website Screenshot](website-screenshot.png)
+![Website Screenshot](https://i.ibb.co/dmwsppT/home.png)
 
 ## Overview
 
-The NTE Healthcare Website is a user-friendly platform designed to provide valuable information and services related to Nose, Throat, and Ear (NTE) health. This website allows users to access essential information concerning NTE health, view a list of specialized doctors, and conveniently schedule appointments with these medical professionals.
+ENTCareCenter is your go-to platform for all things related to Ear, Nose, and Throat (ENT) health. Our website offers a wealth of information, a directory of specialized ENT doctors, and a convenient appointment booking system to ensure your healthcare needs are met.
 
 ## Features
 
 ### 1. **Informative Content**
 
-- Access a comprehensive resource of articles, guides, and information related to Nose, Throat, and Ear health.
-- Learn about common conditions, treatment options, and preventive measures.
-- Stay updated with the latest news and developments in NTE health.
+- Explore a comprehensive library of articles, guides, and resources covering ENT health topics.
+- Learn about common conditions, treatment options, and preventative measures.
+- Stay informed about the latest developments in ENT health.
 
 ### 2. **Find Specialized Doctors**
 
-- Browse through a list of experienced doctors specializing in NTE health.
-- View detailed profiles of each doctor, including their qualifications, experience, and areas of expertise.
-- Gain insights into patient reviews and ratings to make informed decisions.
+- Browse our directory of experienced ENT doctors.
+- View detailed profiles, including qualifications, experience, and areas of expertise.
 
 ### 3. **Appointment Booking**
 
-- Schedule appointments with your chosen doctor directly through the website.
-- Choose convenient appointment dates and times.
-- Receive confirmation and reminders for your scheduled appointments via email.
+- Easily schedule appointments with your chosen ENT specialist.
+- Select convenient appointment dates and times within the 8 PM to 12 AM timeframe.
+- Receive appointment confirmations and email reminders.
+
+### 4. **Express Your Concern**
+
+- Share your concerns and questions with our ENT doctors.
+- Use the form to provide details about your condition and any specific queries.
 
 ## Getting Started
 
-To access the NTE Healthcare Website, simply follow these steps:
+To access ENTCareCenter and take control of your ENT health:
 
-1. Visit the website at [www.ntehealthcare.com](https://kampus-merdeka-software-engineering.github.io/front-end-capstone-project-section-balikpapan-group-25/).
+1. Visit the website at [www.entcarecenter.com](https://kampus-merdeka-software-engineering.github.io/FE-Balikpapan-25/).
 
-2. Explore the informative content to learn more about Nose, Throat, and Ear health.
+2. Explore our informative content to learn more about ENT health.
 
-3. Use the "Find a Doctor" feature to browse through the list of specialized doctors.
+3. Receive confirmation and appointment reminders via email.
 
-4. Select your preferred doctor, check their availability, and book an appointment by filling out the appointment form.
-
-5. Receive confirmation and appointment reminders via email.
+4. Have peace of mind knowing you can express your concerns directly to your doctor.
 
 ## Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: [Node.js](https://nodejs.org/), [Express.js](https://expressjs.com/)
-- **Database**: [PostgresSQL](https://www.postgresql.org/)
+- **Database**: [MySQL](https://www.mysql.com/)
 
 ## Contributions
 
-We welcome contributions from the open-source community to enhance and improve the NTE Healthcare Website. Feel free to submit bug reports, feature requests, or even contribute code. Please see our [Contribution Guidelines](CONTRIBUTING.md) for details.
+We welcome contributions from the open-source community to enhance and improve ENTCareCenter. Feel free to submit bug reports, feature requests, or even contribute code. Please see our [Contribution Guidelines](CONTRIBUTING.md) for details.
 
 ## License
 
@@ -56,7 +58,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, please don't hesitate to [contact us](mailto:info@ntehealthcare.com). We value your input and are here to provide support.
-
-
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/0wBSnje4)
+If you have any questions, suggestions, or feedback, please don't hesitate to [contact us](mailto:info@entcarecenter.com). We value your input and are here to provide support.
