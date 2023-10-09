@@ -114,7 +114,7 @@ section{
 .doctors{
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 110vh;
     align-items: center;
 }
 
@@ -123,20 +123,23 @@ section{
 }
 
 .card{
-    height: 500px;
+    height: 450px;
     margin: 50px;
     box-shadow: 5px 5px 20px black;
     overflow: hidden;
+    justify-content: center;
+    align-items: center;
 }
 
 .doctors img{
-    height: 500px;
+    height: 450px;
     width: 350px;
     border-radius: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro{
-    height: 70px;
     width: 350px;
     padding: 6px;
     box-sizing: border-box;
@@ -144,25 +147,27 @@ section{
     color: transparent;
     background: transparent;
     border-radius: 0 0 10px 10px;
-    top: 1000px;
+    top: 140vh;
     transition: .3s;
 }
 
 .doctors h1{
-    margin: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
     font-size: 20px;
 
 }
 
-.doctors p{
-    font-size: 15px;
-    margin: 10px;
-    visibility: hidden;
-    opacity: 0;
+.doctors li{
+    list-style: none;
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-left: 5px;
 }
 
 .doctors span{
     font-weight: bold;
+    font-size: 14px;
 }
 
 .card:hover{
@@ -171,7 +176,7 @@ section{
 }
 
 .card:hover .intro{
-    height: 215px;
+    height: 225px;
     top: 1000px;
     background: #141428;
     color: white;
@@ -183,7 +188,6 @@ section{
     color: white;
 }
 
-
 .booking{
     display: flex;
     justify-content: center;
@@ -191,19 +195,45 @@ section{
     width: 100%;
     min-height: 100vh;
     overflow-y: auto;
-    padding: 20px 15px;
-    color: white;
+    padding: 20px 16px;
+    background-color: #141428;
+}
+
+.booking h1{
+    font-size: 30px;
+    color: #ffff;
+    margin-top: 5px;
+}
+
+.booking p{
+    font-size: 15px;
+    color: #ffff;
 }
 
 .bf-body{
     width: 500px;
+    background-color: #142850;
+    border-radius: 10px;
 }
 
-input, textarea, select{
+.booking input, textarea, select{
     width: 100%;
     border: none;
     outline: none;
     padding: 5px;
+    background-color: #14143c;
+    color: white;
+    margin-top: 5px;
+    resize: none;
+    border-radius: 10px;
+}
+
+.bf-head{
+    justify-content: center;
+    text-align: center;
+    padding: 10px 5px;
+    background-color: #14143c;
+    border-radius: 10px 10px 0 0;
 }
 
 .input{
@@ -216,9 +246,8 @@ input, textarea, select{
 }
 
 .bf-col-3{
-    width: 20%;
-    text-align: center;
-    justify-content: center;
+    width: 25%;
+    margin-bottom: 15px;
 }
 
 .bf-col-6{
@@ -229,17 +258,18 @@ input, textarea, select{
 .bf-row{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px 15px;
 }
 
 .bf-body-box{
     padding: 20px;
-
 }
 
-.bf-head{
-    justify-content: center;
-    text-align: center;
+.footer{
+    background-color: black;
+    padding: 70px 0;
+    width: 100%;
+    display: flex;
 }
 
 .container{
@@ -253,24 +283,16 @@ input, textarea, select{
     flex-wrap: wrap;
 }
 
-.footer{
-    background-color: black;
-    padding: 70px 0;
-    width: 100%;
-    display: flex;
+.footer-col{
+    margin: 0 20px 0;
 }
 
 .footer-col li{
     list-style: none;
 }
 
-.footer-col a{
-    text-decoration: none;
-    color: white;
-}
-
-.footer-col{
-    margin: 0 20px 0;
+.footer-col i{
+    margin-right: 5px;
 }
 
 .footer-col a{
@@ -293,4 +315,43 @@ input, textarea, select{
     background-color: black;
     padding: 20px;
     text-align: center;
+}
+
+
+.table {
+    display: flex;
+    border-collapse:separate;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table, th, td {
+    border: 1px solid white;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.pesanan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    overflow-y: auto;
+    padding: 20px 16px;
+    background-color: #141428;
+}
+
+.pesanan h2{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
 }
