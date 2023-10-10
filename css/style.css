@@ -361,12 +361,17 @@ th, td {
     padding-bottom: 10px;
 }
 
-/* Your existing CSS code */
+/* Global styles */
+/* Your existing global styles here */
 
-/* Media query for screens smaller than 768px */
+/* Media query for screens 768px and below */
 @media (max-width: 768px) {
     .header {
         padding: 10px 5%;
+    }
+
+    .nameapp {
+        font-size: 24px;
     }
 
     .navbar {
@@ -377,18 +382,11 @@ th, td {
 
     .navbar a {
         margin: 10px 0;
-    }
-
-    .home-content {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+        font-size: 14px;
     }
 
     .home-content img {
         max-width: 100%;
-        margin: 0;
-        float: none;
     }
 
     .home-content h1 {
@@ -400,28 +398,34 @@ th, td {
     }
 
     .kolom {
-        margin-top: 20px;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .doctors .card {
+        max-width: 100%;
+        margin: 20px 0;
     }
 
     /* Add more responsive styles as needed */
 }
 
-/* Media query for screens smaller than 480px */
+/* Media query for screens 480px and below */
 @media (max-width: 480px) {
     .header {
         padding: 10px 3%;
     }
 
     .nameapp {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .navbar a {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .home-content h1 {
-        font-size: 22px;
+        font-size: 24px;
     }
 
     .home-content h3 {
@@ -429,45 +433,14 @@ th, td {
     }
 
     .kolom {
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 10px;
     }
 
-    .doctors {
-        height: auto;
-        padding: 20px;
-    }
-
-    .card {
-        height: auto;
-        margin: 20px;
-    }
-
-    .doctors img {
-        height: auto;
-        width: 100%;
-    }
-
-    .intro {
-        width: 100%;
-    }
-
-    .doctors h1 {
-        font-size: 18px;
-    }
-
-    .doctors li {
-        font-size: 12px;
-    }
-
-    .card:hover .intro {
-        top: auto;
-    }
-
-    .bf-body {
-        width: 100%;
+    .doctors .card {
+        max-width: 100%;
+        margin: 20px 0;
     }
 
     /* Add more responsive styles as needed */
 }
-
