@@ -361,8 +361,6 @@ th, td {
     padding-bottom: 10px;
 }
 
-/* Your existing CSS code */
-
 /* Media query for screens smaller than 768px */
 @media (max-width: 768px) {
     .header {
