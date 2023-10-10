@@ -361,9 +361,6 @@ th, td {
     padding-bottom: 10px;
 }
 
-/* Global styles */
-/* Your existing global styles here */
-
 /* Media query for screens 768px and below */
 @media (max-width: 768px) {
     .header {
@@ -407,10 +404,8 @@ th, td {
         margin: 20px 0;
     }
 
-    /* Add more responsive styles as needed */
 }
 
-/* Media query for screens 480px and below */
 @media (max-width: 480px) {
     .header {
         padding: 10px 3%;
@@ -442,28 +437,22 @@ th, td {
         margin: 20px 0;
     }
 
-    /* Add more responsive styles as needed */
 }
 
-/* Media query for screens 768px and below */
 @media (max-width: 768px) {
-    /* Other responsive styles for the header and home section */
 
-    /* Make images responsive */
     .home-content img {
-        width: 100%; /* Ensure images scale to the width of their containers */
-        height: auto; /* Maintain aspect ratio */
-        margin: 20px 0; /* Adjust margin as needed */
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
     }
 
     /* Make the table responsive */
     #dataTable {
-        width: 100%; /* Ensure the table takes the full width of its container */
+        width: 100%;
     }
 
     #dataTable td, #dataTable th {
-        padding: 8px; /* Adjust cell padding as needed */
+        padding: 8px;
     }
-
-    /* Add more responsive styles as needed */
 }
