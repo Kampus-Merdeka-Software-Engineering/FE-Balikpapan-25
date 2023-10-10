@@ -361,29 +361,12 @@ th, td {
     padding-bottom: 10px;
 }
 
+/* Your existing CSS code */
+
 /* Media query for screens smaller than 768px */
 @media (max-width: 768px) {
     .header {
         padding: 10px 5%;
-    }
-
-    .home-content img {
-        max-width: 100%;
-        margin: 0;
-        float: none;
-    }
-
-    .home-content h1 {
-        font-size: 28px;
-    }
-
-    /* Add more responsive styles as needed */
-}
-
-/* Media query for screens smaller than 480px */
-@media (max-width: 480px) {
-    .header {
-        padding: 10px 3%;
     }
 
     .navbar {
@@ -396,13 +379,95 @@ th, td {
         margin: 10px 0;
     }
 
+    .home-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home-content img {
+        max-width: 100%;
+        margin: 0;
+        float: none;
+    }
+
     .home-content h1 {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     .home-content h3 {
         font-size: 18px;
     }
 
+    .kolom {
+        margin-top: 20px;
+    }
+
     /* Add more responsive styles as needed */
 }
+
+/* Media query for screens smaller than 480px */
+@media (max-width: 480px) {
+    .header {
+        padding: 10px 3%;
+    }
+
+    .nameapp {
+        font-size: 24px;
+    }
+
+    .navbar a {
+        font-size: 14px;
+    }
+
+    .home-content h1 {
+        font-size: 22px;
+    }
+
+    .home-content h3 {
+        font-size: 16px;
+    }
+
+    .kolom {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .doctors {
+        height: auto;
+        padding: 20px;
+    }
+
+    .card {
+        height: auto;
+        margin: 20px;
+    }
+
+    .doctors img {
+        height: auto;
+        width: 100%;
+    }
+
+    .intro {
+        width: 100%;
+    }
+
+    .doctors h1 {
+        font-size: 18px;
+    }
+
+    .doctors li {
+        font-size: 12px;
+    }
+
+    .card:hover .intro {
+        top: auto;
+    }
+
+    .bf-body {
+        width: 100%;
+    }
+
+    /* Add more responsive styles as needed */
+}
+
