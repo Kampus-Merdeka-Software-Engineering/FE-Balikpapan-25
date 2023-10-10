@@ -444,3 +444,26 @@ th, td {
 
     /* Add more responsive styles as needed */
 }
+
+/* Media query for screens 768px and below */
+@media (max-width: 768px) {
+    /* Other responsive styles for the header and home section */
+
+    /* Make images responsive */
+    .home-content img {
+        width: 100%; /* Ensure images scale to the width of their containers */
+        height: auto; /* Maintain aspect ratio */
+        margin: 20px 0; /* Adjust margin as needed */
+    }
+
+    /* Make the table responsive */
+    #dataTable {
+        width: 100%; /* Ensure the table takes the full width of its container */
+    }
+
+    #dataTable td, #dataTable th {
+        padding: 8px; /* Adjust cell padding as needed */
+    }
+
+    /* Add more responsive styles as needed */
+}
