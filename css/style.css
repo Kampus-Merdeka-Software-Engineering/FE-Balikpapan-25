@@ -6,6 +6,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html, body {
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
 body{
     background: #141428;
     color: white;
