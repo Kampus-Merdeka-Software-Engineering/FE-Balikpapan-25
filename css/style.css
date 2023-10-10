@@ -360,3 +360,99 @@ th, td {
     text-align: center;
     padding-bottom: 10px;
 }
+
+/* Media query for screens 768px and below */
+@media (max-width: 768px) {
+    .header {
+        padding: 10px 5%;
+    }
+
+    .nameapp {
+        font-size: 24px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar a {
+        margin: 10px 0;
+        font-size: 14px;
+    }
+
+    .home-content img {
+        max-width: 100%;
+    }
+
+    .home-content h1 {
+        font-size: 28px;
+    }
+
+    .home-content h3 {
+        font-size: 18px;
+    }
+
+    .kolom {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .doctors .card {
+        max-width: 100%;
+        margin: 20px 0;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 10px 3%;
+    }
+
+    .nameapp {
+        font-size: 22px;
+    }
+
+    .navbar a {
+        font-size: 12px;
+    }
+
+    .home-content h1 {
+        font-size: 24px;
+    }
+
+    .home-content h3 {
+        font-size: 16px;
+    }
+
+    .kolom {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .doctors .card {
+        max-width: 100%;
+        margin: 20px 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .home-content img {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    /* Make the table responsive */
+    #dataTable {
+        width: 100%;
+    }
+
+    #dataTable td, #dataTable th {
+        padding: 8px;
+    }
+}
